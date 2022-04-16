@@ -1,6 +1,6 @@
 import { SlashCommandBuilder } from "@discordjs/builders";
 import { Command } from "../interfaces/Command";
-import { ColorResolvable, MessageEmbed } from "discord.js";
+import { MessageEmbed } from "discord.js";
 
 export const test: Command = {
   data: new SlashCommandBuilder()
